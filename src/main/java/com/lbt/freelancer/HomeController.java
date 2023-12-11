@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/home")
+@RequestMapping("/")
 public class HomeController {
   @GetMapping()
   public String home() {
-    return "Home controller";
+    return "Hello Java Spring Boot App";
   }
 }
