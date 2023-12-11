@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
   @GetMapping()
   public String home() {
-    return "Hello Java Spring Boot App";
+    return "Welcome to Java Spring Boot App";
   }
 }
